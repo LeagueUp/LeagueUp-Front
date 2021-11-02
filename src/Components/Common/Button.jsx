@@ -12,6 +12,8 @@ const Btn = styled.button`
   border-radius: 200px;
   border: none;
   font-size: 1.5rem;
+  font-family: 'Pretendard Variable';
+  font-weight: 700;
   &:hover {
     transition: 0.5s;
     cursor: pointer;
