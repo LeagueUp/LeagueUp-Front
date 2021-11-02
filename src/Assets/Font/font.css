@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Pretendard-ExtraLight';
+  src: local('Pretendard-ExtraLight'),
+    url('./Pretendard-ExtraLight.ttf') format('font-woff');
+}
+
+@font-face {
+  font-family: 'Pretendard-Light';
+  src: local('Pretendard-Light'),
+    url('./Pretendard-Light.ttf') format('font-woff');
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: local('Pretendard-Regular'),
+    url('./Pretendard-Regular.ttf') format('font-woff');
+}
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: local('Pretendard-Bold'),
+    url('./Pretendard-Bold.ttf') format('font-woff');
+}
