@@ -1,4 +1,4 @@
-export default {
+const colors = {
   // Base Color
   main_black: '#5F5F5F',
   main_black50: 'rgba(47, 547, 47, 0.5)',
@@ -13,3 +13,5 @@ export default {
   // Extra Color
   warn_red: '#F1697A',
 };
+
+export default colors;
