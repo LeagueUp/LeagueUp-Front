@@ -12,8 +12,8 @@ const Contents = styled.div`
   background-color: ${colors.background_grey};
 `;
 
-const Main = () => {
-  return <Contents>나는야 메인</Contents>;
+const My = () => {
+  return <Contents>이건 마이페이지 메인</Contents>;
 };
 
-export default Main;
+export default My;

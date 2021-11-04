@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from '../../Components/Common/Header/Header';
 import SideBar from '../../Components/Common/SideBar/SideBar';
-import Main from '../../Components/Main/Main';
+import LeagueAdd from '../../Components/LeagueAdd/LeagueAdd';
 
-const MainPage = () => {
+const LeagueAddPage = () => {
   return (
     <>
       <Header />
       <SideBar />
-      <Main />
+      <LeagueAdd />
     </>
   );
 };
 
-export default MainPage;
+export default LeagueAddPage;

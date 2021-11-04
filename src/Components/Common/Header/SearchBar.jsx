@@ -8,10 +8,10 @@ const Container = styled.div`
   height: 50px;
   padding: 5px 15px;
   box-sizing: border-box;
+  border-radius: 50px;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
-  background-color: ${colors.background_grey};
+  background-color: ${colors.background_grey2};
 
   & input {
     width: 900px;

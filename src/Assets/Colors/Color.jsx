@@ -3,7 +3,8 @@ const colors = {
   main_black: '#5F5F5F',
   main_black50: 'rgba(47, 547, 47, 0.5)',
   main_grey: '#BFBFBF',
-  background_grey: '#F9F9F9',
+  background_grey: '#FcFcFc',
+  background_grey2: '#F9F9F9',
 
   // Point Color
   main: '#00E3D2',
