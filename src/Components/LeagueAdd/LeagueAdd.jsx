@@ -12,8 +12,8 @@ const Contents = styled.div`
   background-color: ${colors.background_grey};
 `;
 
-const Main = () => {
-  return <Contents>나는야 메인</Contents>;
+const LeagueAdd = () => {
+  return <Contents>리그등록페이지</Contents>;
 };
 
-export default Main;
+export default LeagueAdd;
