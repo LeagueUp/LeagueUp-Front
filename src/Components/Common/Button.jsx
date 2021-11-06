@@ -10,7 +10,7 @@ const Btn = styled.button`
   color: ${props => props.textColor};
   background-color: ${props => props.backgroundColor};
   border-radius: 200px;
-  border: none;
+  border: 1.5px solid ${colors.main};
   font-size: 1.5rem;
   font-family: 'Pretendard Variable';
   font-weight: 700;

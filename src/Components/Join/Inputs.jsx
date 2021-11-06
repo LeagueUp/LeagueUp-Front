@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// import colors from '../../Assets/Colors/Color';
+import colors from '../../Assets/Colors/Color';
 import Button from '../Common/Button';
 import Input from '../Common/Input';
 
@@ -8,6 +8,7 @@ const InputDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 30px;
 `;
 
 const Inputs = () => {
@@ -56,10 +57,8 @@ const Inputs = () => {
         width="450px"
         content="회원가입"
         height="50px"
-        // textColor="white"
-        // backgroundColor={colors.main}
-        // hoverTextColor={colors.main}
-        // hoverBgColor="white"
+        textColor={colors.main}
+        backgroundColor="white"
       />
     </>
   );

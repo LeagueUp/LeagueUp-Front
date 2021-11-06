@@ -23,9 +23,11 @@ const Container = styled.div`
     display: block;
     padding: 10px;
     font-size: 1.1rem;
+    font-family: inherit;
   }
 
   & input::placeholder {
+    font-family: inherit;
     color: ${colors.main_grey};
   }
 

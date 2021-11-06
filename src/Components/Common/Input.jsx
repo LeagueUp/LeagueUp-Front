@@ -7,6 +7,7 @@ const InputBox = styled.div`
   margin-bottom: 10px;
 
   & > span {
+    font-size: 1.1rem;
     display: inline-block;
     width: 120px;
   }
@@ -23,6 +24,7 @@ const InputBox = styled.div`
 
   & > input::placeholder {
     color: ${colors.main_black50};
+    font-size: 0.9rem;
   }
 `;
 
