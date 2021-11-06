@@ -35,7 +35,7 @@ const SearchResult = ({ display, data }) => {
   return (
     <Container visible={display} data={data}>
       <p>검색 결과 총 10개</p>
-      {/* {data === [] ? (
+      {data === [] ? (
         <p>검색 결과가 없습니다. </p>
       ) : (
         <Items>
@@ -46,7 +46,7 @@ const SearchResult = ({ display, data }) => {
             </Item>
           ))}
         </Items>
-      )} */}
+      )}
     </Container>
   );
 };

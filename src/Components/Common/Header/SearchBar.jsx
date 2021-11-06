@@ -63,18 +63,22 @@ const SearchBar = () => {
     // 키가 눌릴 때마다 api 에서 리스트를 가져오는 fetch 함수 실행
     fetch();
     // input에 입력할 경우에는 input 에 맞는 data 를 리턴
+    // console.log(Object.values(itemList));
     if (inputValue) {
-      for (let i = 0; i < itemList.length; i += 1) {
-        const { name } = itemList[i];
-        if (name.indexOf(inputValue) !== -1) {
-          console.log({ name });
-        } else {
-          console.log('없는데요');
-        }
-      }
+      // for (let i = 0; i < itemList.length; i += 1) {
+      //   const { name } = itemList[i];
+      //   // 해당 이름에 input 에 입력된 값이 있으면 name 출력
+      //   if (name.indexOf(inputValue) !== -1) {
+      //     console.log({ name });
+      //   } else {
+      //     console.log('없는데요');
+      //   }
+      // }
+      setsearchResult(itemList);
+      console.log(searchResult);
     } else {
       // input 에 아무것도 없을 경우에는 전체 data 를 리턴
-      setsearchResult(fetch());
+      setsearchResult(itemList);
     }
   };
   // focus 시 보이게
