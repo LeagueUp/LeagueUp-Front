@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <Container>
       <LogoDiv>
-        <Link to="/">
+        <Link to="/main">
           <Logo width="60" height="70" />
         </Link>
       </LogoDiv>

@@ -13,7 +13,7 @@ const Contents = styled.div`
 `;
 
 const Main = () => {
-  return <Contents>나는야 메인</Contents>;
+  return <Contents>전국리그</Contents>;
 };
 
 export default Main;

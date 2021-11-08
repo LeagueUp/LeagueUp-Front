@@ -10,7 +10,7 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={MainPage} />
+        <Route exact path="/main" component={MainPage} />
         <Route path="/my" component={MyPage} />
         <Route path="/leagueAdd" component={LeagueAddPage} />
         <Route path="/join" component={JoinPage} />

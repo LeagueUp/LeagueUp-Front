@@ -41,7 +41,7 @@ const Inputs = () => {
           placeholder="비밀번호를 입력하세요. "
         />
       </InputDiv>
-      <StyledLink to="/">
+      <StyledLink to="/main">
         <Button width="400px" height="45px" content="로그인" />
       </StyledLink>
     </>

@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import colors from '../../Assets/Colors/Color';
+import Inputs from './Inputs';
 
 const Contents = styled.div`
   position: fixed;
@@ -13,7 +14,11 @@ const Contents = styled.div`
 `;
 
 const LeagueAdd = () => {
-  return <Contents>리그등록페이지</Contents>;
+  return (
+    <Contents>
+      <Inputs />
+    </Contents>
+  );
 };
 
 export default LeagueAdd;
